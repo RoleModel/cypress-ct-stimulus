@@ -1,0 +1,29 @@
+{
+  "name": "cypress-ct-stimulus",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Framework Definition for testing Stimulus with Cypress Component Testing.",
+  "scripts": {
+    "prettier": "prettier -w ."
+  },
+  "exports": {
+    "node": "./definition.cjs",
+    "default": "./index.mjs"
+  },
+  "files": [
+    "package.json",
+    "definition.cjs",
+    "index.mjs"
+  ],
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@cypress/mount-utils": "^4.0.0",
+    "@hotwired/stimulus": "^3.2.1"
+  },
+  "peerDependencies": {
+    "cypress": "^12.11.0"
+  }
+}
